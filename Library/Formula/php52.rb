@@ -55,7 +55,7 @@ Pass --with-mysql  to build with MySQL (PDO) support
         "--with-xsl=/usr",
         "--without-pear",
         "--with-libxml-dir=/usr",
-        "--with-iconv=#{HOMEBREW_PREFIX}",
+        "--with-iconv=#{HOMEBREW_PREFIX}/Cellar/libiconv/1.13.1",
         "--with-gd",
         "--with-jpeg-dir=#{HOMEBREW_PREFIX}",
         "--with-png-dir=#{HOMEBREW_PREFIX}/Cellar/libpng/1.2.40",

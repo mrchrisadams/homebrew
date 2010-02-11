@@ -8,6 +8,9 @@ class Libiconv <Formula
 # def deps
 #   BinaryDep.new 'cmake'
 # end
+  def keg_only?
+    :provided_by_osx
+  end
 
   def install
     system "./configure", "--prefix=#{prefix}", "--disable-debug", "--disable-dependency-tracking"
